@@ -1,11 +1,14 @@
-MAC Address Formatting Tool
+# MAC Address Formatter
+A code to format a MAC address according to team standards (XX:XX:XX:XX:XX:XX)
 
-This tool is used to format a MAC address according to team standards (XX:XX:XX:XX:XX:XX). It takes a string of characters as input and removes all dots (.) from it, before formatting it as a string of hexadecimal pairs separated by colons.
-Usage
+## Functionality
+The `mac_modifier` function takes in an input MAC address as a string, removes all dots from the string, and formats it as a string of hexadecimal pairs separated by colons. 
+
+
 
 The script is executed by running the following code in a terminal:
 
-python app.py
+python mac_address_format.py
 
 The user will then be prompted to enter the MAC address they wish to format:
 
